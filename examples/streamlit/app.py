@@ -124,7 +124,7 @@ for feat in feature_dict.keys():
                             f"Linear slope of {feat_val}",
                             value=1.0,
                             format="%f",
-                            key="linear_trend_{feat}_{feat_val}",
+                            key=f"linear_trend_{feat}_{feat_val}",
                         )
                         feat_val_linear_trend_dict[feat_val] = {
                             "coef": coef,
