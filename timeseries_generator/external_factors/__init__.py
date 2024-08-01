@@ -1,3 +1,4 @@
 from .country_gdp_factor import CountryGdpFactor
 from .eu_industry_product_factor import EUIndustryProductFactor
+from .eu_industry_product_factor_eurostat import EUIndustryProductFactorEurostat
 from .external_factor import ExternalFactor
